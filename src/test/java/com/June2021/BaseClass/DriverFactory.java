@@ -22,7 +22,7 @@ public class DriverFactory {
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         driver.get("https://www.argos.co.uk/");
         driver.manage().window().maximize();
-        driver.findElement(By.id("tealium_consent_prompt")).click();
+        driver.findElement(By.id("consent_prompt_submit")).click();
     }
 
     public void closedBrowser(){

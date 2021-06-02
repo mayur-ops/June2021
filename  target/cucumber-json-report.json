@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-02T00:56:01.487Z",
+        "start_timestamp": "2021-06-02T02:22:35.101Z",
         "before": [
           {
             "result": {
-              "duration": 2983000000,
+              "duration": 2836000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 10,
-        "name": "argos account page functionality",
+        "line": 17,
+        "name": "argos list of nike products select out of one product",
         "description": "",
-        "id": "argos-home-page-functionality;argos-account-page-functionality",
+        "id": "argos-home-page-functionality;argos-list-of-nike-products-select-out-of-one-product",
         "after": [
           {
             "result": {
-              "duration": 106000000,
+              "duration": 135000000,
               "status": "passed"
             },
             "match": {
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 23000000,
+              "duration": 21000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 18,
             "name": "user is on argos home page",
             "match": {
               "location": "com.June2021.StepDefinitions.IndividualProductSearchSteps.user_is_on_argos_home_page()"
@@ -47,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 920000000,
+              "duration": 1736000000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 19,
             "name": "user is search nike product",
             "match": {
               "location": "com.June2021.StepDefinitions.IndividualProductSearchSteps.user_is_search_nike_product()"
@@ -59,32 +59,32 @@
           },
           {
             "result": {
-              "duration": 336000000,
+              "duration": 511000000,
               "status": "passed"
             },
-            "line": 13,
-            "name": "user select the product by relevance high to low price range",
+            "line": 20,
+            "name": "user select one product out of nike list of products",
             "match": {
-              "location": "com.June2021.StepDefinitions.RelevanceSearchSteps.user_select_the_product_by_relevance_high_to_low_price_range()"
+              "location": "com.June2021.StepDefinitions.NikeListProductsSteps.user_select_one_product_out_of_nike_list_of_products()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 298000000,
+              "duration": 271000000,
               "status": "passed"
             },
-            "line": 14,
-            "name": "user should able to see all high to low price range product",
+            "line": 21,
+            "name": "user able to add selected product in basket",
             "match": {
-              "location": "com.June2021.StepDefinitions.RelevanceSearchSteps.user_should_able_to_see_all_high_to_low_price_range_product()"
+              "location": "com.June2021.StepDefinitions.NikeListProductsSteps.user_able_to_add_selected_product_in_basket()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@select"
+            "name": "@list"
           }
         ]
       }

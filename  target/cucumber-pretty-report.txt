@@ -1,7 +1,7 @@
 
-@select
-Scenario: argos account page functionality                         [90m# src/test/Resources/HomePage.feature:10[0m
-  [32mGiven [0m[32muser is on argos home page[0m                                 [90m# com.June2021.StepDefinitions.IndividualProductSearchSteps.user_is_on_argos_home_page()[0m
-  [32mWhen [0m[32muser is search nike product[0m                                 [90m# com.June2021.StepDefinitions.IndividualProductSearchSteps.user_is_search_nike_product()[0m
-  [32mAnd [0m[32muser select the product by relevance high to low price range[0m [90m# com.June2021.StepDefinitions.RelevanceSearchSteps.user_select_the_product_by_relevance_high_to_low_price_range()[0m
-  [32mThen [0m[32muser should able to see all high to low price range product[0m [90m# com.June2021.StepDefinitions.RelevanceSearchSteps.user_should_able_to_see_all_high_to_low_price_range_product()[0m
+@list
+Scenario: argos list of nike products select out of one product [90m# src/test/Resources/HomePage.feature:17[0m
+  [32mGiven [0m[32muser is on argos home page[0m                              [90m# com.June2021.StepDefinitions.IndividualProductSearchSteps.user_is_on_argos_home_page()[0m
+  [32mWhen [0m[32muser is search nike product[0m                              [90m# com.June2021.StepDefinitions.IndividualProductSearchSteps.user_is_search_nike_product()[0m
+  [32mAnd [0m[32muser select one product out of nike list of products[0m      [90m# com.June2021.StepDefinitions.NikeListProductsSteps.user_select_one_product_out_of_nike_list_of_products()[0m
+  [32mThen [0m[32muser able to add selected product in basket[0m              [90m# com.June2021.StepDefinitions.NikeListProductsSteps.user_able_to_add_selected_product_in_basket()[0m
