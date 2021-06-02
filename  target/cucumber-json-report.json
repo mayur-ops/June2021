@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-02T00:56:01.487Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2983000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.June2021.BaseClass.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "argos account page functionality",
+        "description": "",
+        "id": "argos-home-page-functionality;argos-account-page-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 106000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.June2021.BaseClass.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on argos home page",
+            "match": {
+              "location": "com.June2021.StepDefinitions.IndividualProductSearchSteps.user_is_on_argos_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 920000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is search nike product",
+            "match": {
+              "location": "com.June2021.StepDefinitions.IndividualProductSearchSteps.user_is_search_nike_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 336000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user select the product by relevance high to low price range",
+            "match": {
+              "location": "com.June2021.StepDefinitions.RelevanceSearchSteps.user_select_the_product_by_relevance_high_to_low_price_range()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 298000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should able to see all high to low price range product",
+            "match": {
+              "location": "com.June2021.StepDefinitions.RelevanceSearchSteps.user_should_able_to_see_all_high_to_low_price_range_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@select"
+          }
+        ]
+      }
+    ],
+    "name": "Argos home page functionality",
+    "description": "",
+    "id": "argos-home-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/Resources/HomePage.feature",
+    "tags": []
+  }
+]
