@@ -10,7 +10,7 @@ import java.util.List;
 
 public class NikeListProducts extends DriverFactory {
 
-    @FindBy(css = ".ProductCardstyles__Title-gm8lcq-12.hkIdWm")
+    @FindBy(css = ".ProductCardstyles__Title-h52kot-12.PQnCV")
     List<WebElement> nikeProducts;
 
     public void nikeProductList() {
@@ -23,7 +23,7 @@ public class NikeListProducts extends DriverFactory {
         }
     }
 
-    @FindBy(css = "span[data-test=\"product-title\"]")
+    @FindBy(xpath = "//*[@id=\"content\"]/div/div[1]/div[3]/div[1]/section[1]/div[1]/h1/span[1]")
     WebElement selectedProduct;
 
     public void listAssertion(){

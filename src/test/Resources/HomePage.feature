@@ -1,3 +1,5 @@
+
+@regression
 Feature: Argos home page functionality
 
   @search
