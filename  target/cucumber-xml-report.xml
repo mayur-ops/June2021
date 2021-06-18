@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.729">
-<testcase classname="Argos home page functionality" name="argos list of nike products select out of one product" time="5.579">
-<system-out><![CDATA[Given user is on argos home page............................................passed
-When user is search nike product............................................passed
-And user select one product out of nike list of products....................passed
-Then user able to add selected product in basket............................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.327">
+<testcase classname="Nike result page functionality" name="Nike result page price range functionality" time="10.187">
+<system-out><![CDATA[Given user is on argos nike product web page................................passed
+When user would like to select ten to fifteen pound price range product.....passed
+And user able to select one product out of all display ten to fifteen pound related products.passed
+And user is able to add selected product in to trolley......................passed
+And user able to send product go to trolley.................................passed
+Then user should able to see selected product in the basket for check out...passed
 ]]></system-out>
 </testcase>
 </testsuite>

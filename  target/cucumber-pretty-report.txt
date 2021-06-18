@@ -1,7 +1,9 @@
 
-@list
-Scenario: argos list of nike products select out of one product [90m# src/test/Resources/HomePage.feature:17[0m
-  [32mGiven [0m[32muser is on argos home page[0m                              [90m# com.June2021.StepDefinitions.IndividualProductSearchSteps.user_is_on_argos_home_page()[0m
-  [32mWhen [0m[32muser is search nike product[0m                              [90m# com.June2021.StepDefinitions.IndividualProductSearchSteps.user_is_search_nike_product()[0m
-  [32mAnd [0m[32muser select one product out of nike list of products[0m      [90m# com.June2021.StepDefinitions.NikeListProductsSteps.user_select_one_product_out_of_nike_list_of_products()[0m
-  [32mThen [0m[32muser able to add selected product in basket[0m              [90m# com.June2021.StepDefinitions.NikeListProductsSteps.user_able_to_add_selected_product_in_basket()[0m
+@PriceRange
+Scenario: Nike result page price range functionality                                           [90m# src/test/Resources/ResultPage.feature:4[0m
+  [32mGiven [0m[32muser is on argos nike product web page[0m                                                 [90m# com.June2021.StepDefinitions.PriceRangeSteps.user_is_on_argos_nike_product_web_page()[0m
+  [32mWhen [0m[32muser would like to select ten to fifteen pound price range product[0m                      [90m# com.June2021.StepDefinitions.PriceRangeSteps.user_would_like_to_select_ten_to_fifteen_pound_price_range_product()[0m
+  [32mAnd [0m[32muser able to select one product out of all display ten to fifteen pound related products[0m [90m# com.June2021.StepDefinitions.PriceRangeSteps.user_able_to_select_one_product_out_of_all_display_ten_to_fifteen_pound_related_products()[0m
+  [32mAnd [0m[32muser is able to add selected product in to trolley[0m                                       [90m# com.June2021.StepDefinitions.PriceRangeSteps.user_is_able_to_add_selected_product_in_to_trolley()[0m
+  [32mAnd [0m[32muser able to send product go to trolley[0m                                                  [90m# com.June2021.StepDefinitions.PriceRangeSteps.user_able_to_send_product_go_to_trolley()[0m
+  [32mThen [0m[32muser should able to see selected product in the basket for check out[0m                    [90m# com.June2021.StepDefinitions.PriceRangeSteps.user_should_able_to_see_selected_product_in_the_basket_for_check_out()[0m

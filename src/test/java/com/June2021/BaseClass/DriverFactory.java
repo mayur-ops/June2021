@@ -20,7 +20,8 @@ public class DriverFactory {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        driver.get("https://www.argos.co.uk/");
+        //driver.get("https://www.argos.co.uk/");
+        driver.get("https://www.argos.co.uk/search/nike/?clickOrigin=searchbar:home:term:nike");
         driver.manage().window().maximize();
         driver.findElement(By.id("consent_prompt_submit")).click();
     }
